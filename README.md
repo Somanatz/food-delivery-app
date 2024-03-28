@@ -43,6 +43,5 @@ The `node_modules` directory contains dependencies required by the project. It i
 npm install
 # or
 yarn install
-
 ## Conclusion
 The food delivery app backend provides a robust and scalable solution for calculating delivery costs based on various factors. With its dynamic pricing module and efficient database schema, the application offers flexibility and accuracy in determining total prices for food delivery operations.
