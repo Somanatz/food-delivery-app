@@ -37,5 +37,12 @@ The application code is structured as follows:
 ## Deployment
 The application can be deployed on a platform like [render.com](https://render.com/) for hosting. A proper Swagger page can be set up to document the API endpoints.
 
+## Node Modules
+The `node_modules` directory contains dependencies required by the project. It is generated when running `npm install` or `yarn install` and should not be manually uploaded to version control. To install dependencies, run:
+```bash
+npm install
+# or
+yarn install
+
 ## Conclusion
 The food delivery app backend provides a robust and scalable solution for calculating delivery costs based on various factors. With its dynamic pricing module and efficient database schema, the application offers flexibility and accuracy in determining total prices for food delivery operations.
