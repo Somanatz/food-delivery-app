@@ -1,0 +1,27 @@
+{
+  "name": "food_delivery_app",
+  "version": "1.0.0",
+  "description": "REST API backend for a food delivery app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "food",
+    "delivery",
+    "api",
+    "backend",
+    "node.js"
+  ],
+  "author": "onsre",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.4.2",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.3"
+  }
+}
